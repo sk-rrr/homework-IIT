@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #101010;
+  color: white;
+  text-align: center;
+}
+.menu {
+  background-color: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  border-radius: 5px;
+}
+.mc {
+  display: flex;
+  gap: 20px;
+}
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #202020;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+.button:hover {
+  background-color: #303030;
+}
+.left {
+  width: 150px;
+  height: 100vh;
+  background-color: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  border-radius: 5px;
+}
+.left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lbutton {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 20px;
+  background-color: #202020;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+.lbutton:hover {
+  background-color: #303030;
+}
+.text {
+  font-size: 16px;
+}
+.down {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.images {
+  margin-left: 170px;
+  padding: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
